@@ -1,0 +1,951 @@
+{
+  "best_model_name": "XGBoost",
+  "evaluation_metrics": {
+    "Linear_Regression": {
+      "MAE": 13.42,
+      "RMSE": 16.14,
+      "R2": 0.7971
+    },
+    "Random_Forest": {
+      "MAE": 6.27,
+      "RMSE": 7.82,
+      "R2": 0.9524
+    },
+    "Gradient_Boosting": {
+      "MAE": 6.18,
+      "RMSE": 7.71,
+      "R2": 0.9536
+    },
+    "XGBoost": {
+      "MAE": 6.16,
+      "RMSE": 7.71,
+      "R2": 0.9537
+    }
+  },
+  "best_model_metrics": {
+    "MAE": 6.16,
+    "RMSE": 7.71,
+    "R2": 0.9537
+  },
+  "feature_importance": {
+    "emergency_priority": 0.9352,
+    "arrival_hour": 0.0527,
+    "dept_Dermatology": 0.0012,
+    "dept_Ophthalmology": 0.0011,
+    "dept_Pediatrics": 0.0011,
+    "dept_ENT": 0.001,
+    "day_of_week": 0.0009,
+    "patient_age": 0.0009,
+    "dept_Gastroenterology": 0.0009,
+    "dept_General Medicine": 0.0009,
+    "dept_Neurology": 0.0009,
+    "dept_Orthopedics": 0.0009,
+    "dept_Psychiatry": 0.0009,
+    "staff_on_duty": 0.0008,
+    "dept_Gynecology & Obstetrics": 0.0007,
+    "is_weekend": 0.0
+  },
+  "sample_comparison": [
+    {
+      "actual": 37.2,
+      "predicted": 41.3,
+      "priority": 3,
+      "hour": 6
+    },
+    {
+      "actual": 80.2,
+      "predicted": 68.4,
+      "priority": 4,
+      "hour": 7
+    },
+    {
+      "actual": 45.6,
+      "predicted": 38.2,
+      "priority": 3,
+      "hour": 3
+    },
+    {
+      "actual": 3.0,
+      "predicted": 10.1,
+      "priority": 1,
+      "hour": 10
+    },
+    {
+      "actual": 100.9,
+      "predicted": 102.5,
+      "priority": 5,
+      "hour": 6
+    },
+    {
+      "actual": 95.6,
+      "predicted": 100.4,
+      "priority": 4,
+      "hour": 9
+    },
+    {
+      "actual": 75.3,
+      "predicted": 60.8,
+      "priority": 3,
+      "hour": 11
+    },
+    {
+      "actual": 62.9,
+      "predicted": 60.4,
+      "priority": 3,
+      "hour": 9
+    },
+    {
+      "actual": 2.1,
+      "predicted": 6.4,
+      "priority": 1,
+      "hour": 20
+    },
+    {
+      "actual": 148.3,
+      "predicted": 147.3,
+      "priority": 5,
+      "hour": 9
+    },
+    {
+      "actual": 63.8,
+      "predicted": 66.7,
+      "priority": 4,
+      "hour": 15
+    },
+    {
+      "actual": 77.8,
+      "predicted": 68.4,
+      "priority": 4,
+      "hour": 7
+    },
+    {
+      "actual": 23.1,
+      "predicted": 24.8,
+      "priority": 2,
+      "hour": 9
+    },
+    {
+      "actual": 16.5,
+      "predicted": 16.5,
+      "priority": 2,
+      "hour": 15
+    },
+    {
+      "actual": 28.1,
+      "predicted": 21.8,
+      "priority": 2,
+      "hour": 20
+    },
+    {
+      "actual": 58.0,
+      "predicted": 60.5,
+      "priority": 3,
+      "hour": 18
+    },
+    {
+      "actual": 55.4,
+      "predicted": 69.3,
+      "priority": 4,
+      "hour": 21
+    },
+    {
+      "actual": 36.1,
+      "predicted": 41.7,
+      "priority": 3,
+      "hour": 14
+    },
+    {
+      "actual": 65.6,
+      "predicted": 67.5,
+      "priority": 4,
+      "hour": 8
+    },
+    {
+      "actual": 33.7,
+      "predicted": 40.9,
+      "priority": 3,
+      "hour": 13
+    },
+    {
+      "actual": 63.9,
+      "predicted": 60.7,
+      "priority": 3,
+      "hour": 10
+    },
+    {
+      "actual": 7.8,
+      "predicted": 16.7,
+      "priority": 2,
+      "hour": 7
+    },
+    {
+      "actual": 50.5,
+      "predicted": 38.2,
+      "priority": 3,
+      "hour": 6
+    },
+    {
+      "actual": 107.1,
+      "predicted": 101.1,
+      "priority": 4,
+      "hour": 9
+    },
+    {
+      "actual": 69.5,
+      "predicted": 66.6,
+      "priority": 4,
+      "hour": 13
+    },
+    {
+      "actual": 32.1,
+      "predicted": 40.2,
+      "priority": 3,
+      "hour": 14
+    },
+    {
+      "actual": 66.6,
+      "predicted": 68.3,
+      "priority": 4,
+      "hour": 7
+    },
+    {
+      "actual": 69.1,
+      "predicted": 65.4,
+      "priority": 4,
+      "hour": 8
+    },
+    {
+      "actual": 17.8,
+      "predicted": 24.8,
+      "priority": 2,
+      "hour": 9
+    },
+    {
+      "actual": 104.9,
+      "predicted": 101.5,
+      "priority": 4,
+      "hour": 17
+    },
+    {
+      "actual": 103.0,
+      "predicted": 107.6,
+      "priority": 5,
+      "hour": 5
+    },
+    {
+      "actual": 42.2,
+      "predicted": 25.2,
+      "priority": 2,
+      "hour": 11
+    },
+    {
+      "actual": 150.6,
+      "predicted": 146.8,
+      "priority": 5,
+      "hour": 9
+    },
+    {
+      "actual": 13.8,
+      "predicted": 16.8,
+      "priority": 2,
+      "hour": 14
+    },
+    {
+      "actual": 51.0,
+      "predicted": 59.3,
+      "priority": 3,
+      "hour": 19
+    },
+    {
+      "actual": 55.6,
+      "predicted": 60.4,
+      "priority": 3,
+      "hour": 12
+    },
+    {
+      "actual": 58.0,
+      "predicted": 59.8,
+      "priority": 3,
+      "hour": 17
+    },
+    {
+      "actual": 104.4,
+      "predicted": 99.8,
+      "priority": 5,
+      "hour": 13
+    },
+    {
+      "actual": 78.3,
+      "predicted": 69.4,
+      "priority": 4,
+      "hour": 8
+    },
+    {
+      "actual": 62.5,
+      "predicted": 61.0,
+      "priority": 3,
+      "hour": 18
+    },
+    {
+      "actual": 167.9,
+      "predicted": 147.9,
+      "priority": 5,
+      "hour": 10
+    },
+    {
+      "actual": 112.2,
+      "predicted": 101.1,
+      "priority": 4,
+      "hour": 18
+    },
+    {
+      "actual": 70.4,
+      "predicted": 60.0,
+      "priority": 3,
+      "hour": 20
+    },
+    {
+      "actual": 72.1,
+      "predicted": 59.2,
+      "priority": 3,
+      "hour": 19
+    },
+    {
+      "actual": 9.4,
+      "predicted": 5.6,
+      "priority": 1,
+      "hour": 15
+    },
+    {
+      "actual": 18.3,
+      "predicted": 15.4,
+      "priority": 2,
+      "hour": 14
+    },
+    {
+      "actual": 102.6,
+      "predicted": 97.5,
+      "priority": 5,
+      "hour": 14
+    },
+    {
+      "actual": 111.1,
+      "predicted": 101.3,
+      "priority": 4,
+      "hour": 12
+    },
+    {
+      "actual": 74.7,
+      "predicted": 68.3,
+      "priority": 4,
+      "hour": 14
+    },
+    {
+      "actual": 68.2,
+      "predicted": 60.4,
+      "priority": 3,
+      "hour": 17
+    },
+    {
+      "actual": 6.1,
+      "predicted": 15.8,
+      "priority": 2,
+      "hour": 15
+    },
+    {
+      "actual": 51.6,
+      "predicted": 40.3,
+      "priority": 3,
+      "hour": 6
+    },
+    {
+      "actual": 27.5,
+      "predicted": 40.3,
+      "priority": 3,
+      "hour": 6
+    },
+    {
+      "actual": 65.4,
+      "predicted": 60.4,
+      "priority": 3,
+      "hour": 12
+    },
+    {
+      "actual": 148.8,
+      "predicted": 148.9,
+      "priority": 5,
+      "hour": 19
+    },
+    {
+      "actual": 93.6,
+      "predicted": 101.5,
+      "priority": 5,
+      "hour": 5
+    },
+    {
+      "actual": 31.9,
+      "predicted": 39.9,
+      "priority": 3,
+      "hour": 8
+    },
+    {
+      "actual": 143.3,
+      "predicted": 147.9,
+      "priority": 5,
+      "hour": 10
+    },
+    {
+      "actual": 101.4,
+      "predicted": 101.2,
+      "priority": 4,
+      "hour": 17
+    },
+    {
+      "actual": 10.1,
+      "predicted": 16.8,
+      "priority": 2,
+      "hour": 13
+    },
+    {
+      "actual": 62.1,
+      "predicted": 60.8,
+      "priority": 3,
+      "hour": 12
+    },
+    {
+      "actual": 53.1,
+      "predicted": 67.1,
+      "priority": 4,
+      "hour": 13
+    },
+    {
+      "actual": 6.2,
+      "predicted": 5.8,
+      "priority": 1,
+      "hour": 14
+    },
+    {
+      "actual": 141.4,
+      "predicted": 148.9,
+      "priority": 5,
+      "hour": 10
+    },
+    {
+      "actual": 70.5,
+      "predicted": 58.2,
+      "priority": 3,
+      "hour": 20
+    },
+    {
+      "actual": 19.3,
+      "predicted": 23.3,
+      "priority": 2,
+      "hour": 19
+    },
+    {
+      "actual": 62.0,
+      "predicted": 60.2,
+      "priority": 3,
+      "hour": 20
+    },
+    {
+      "actual": 81.6,
+      "predicted": 70.6,
+      "priority": 4,
+      "hour": 22
+    },
+    {
+      "actual": 42.1,
+      "predicted": 40.9,
+      "priority": 3,
+      "hour": 15
+    },
+    {
+      "actual": 99.8,
+      "predicted": 102.5,
+      "priority": 4,
+      "hour": 10
+    },
+    {
+      "actual": 62.9,
+      "predicted": 60.3,
+      "priority": 3,
+      "hour": 9
+    },
+    {
+      "actual": 109.3,
+      "predicted": 101.3,
+      "priority": 4,
+      "hour": 18
+    },
+    {
+      "actual": 68.1,
+      "predicted": 61.1,
+      "priority": 3,
+      "hour": 9
+    },
+    {
+      "actual": 52.3,
+      "predicted": 60.4,
+      "priority": 3,
+      "hour": 9
+    },
+    {
+      "actual": 56.3,
+      "predicted": 61.5,
+      "priority": 3,
+      "hour": 11
+    },
+    {
+      "actual": 73.8,
+      "predicted": 67.3,
+      "priority": 4,
+      "hour": 22
+    },
+    {
+      "actual": 97.3,
+      "predicted": 102.4,
+      "priority": 4,
+      "hour": 18
+    },
+    {
+      "actual": 84.6,
+      "predicted": 101.3,
+      "priority": 4,
+      "hour": 9
+    },
+    {
+      "actual": 49.7,
+      "predicted": 38.9,
+      "priority": 3,
+      "hour": 21
+    },
+    {
+      "actual": 45.7,
+      "predicted": 42.3,
+      "priority": 3,
+      "hour": 23
+    },
+    {
+      "actual": 52.1,
+      "predicted": 59.7,
+      "priority": 3,
+      "hour": 18
+    },
+    {
+      "actual": 48.2,
+      "predicted": 40.2,
+      "priority": 3,
+      "hour": 14
+    },
+    {
+      "actual": 52.5,
+      "predicted": 59.4,
+      "priority": 3,
+      "hour": 17
+    },
+    {
+      "actual": 27.8,
+      "predicted": 22.9,
+      "priority": 2,
+      "hour": 20
+    },
+    {
+      "actual": 38.4,
+      "predicted": 40.6,
+      "priority": 3,
+      "hour": 16
+    },
+    {
+      "actual": 12.1,
+      "predicted": 5.6,
+      "priority": 1,
+      "hour": 18
+    },
+    {
+      "actual": 22.7,
+      "predicted": 24.2,
+      "priority": 2,
+      "hour": 18
+    },
+    {
+      "actual": 32.6,
+      "predicted": 40.9,
+      "priority": 3,
+      "hour": 6
+    },
+    {
+      "actual": 34.4,
+      "predicted": 39.6,
+      "priority": 3,
+      "hour": 13
+    },
+    {
+      "actual": 2.0,
+      "predicted": 5.6,
+      "priority": 1,
+      "hour": 13
+    },
+    {
+      "actual": 17.4,
+      "predicted": 24.5,
+      "priority": 2,
+      "hour": 11
+    },
+    {
+      "actual": 28.1,
+      "predicted": 24.5,
+      "priority": 2,
+      "hour": 10
+    },
+    {
+      "actual": 42.5,
+      "predicted": 37.5,
+      "priority": 3,
+      "hour": 14
+    },
+    {
+      "actual": 75.8,
+      "predicted": 61.0,
+      "priority": 3,
+      "hour": 19
+    },
+    {
+      "actual": 156.7,
+      "predicted": 150.4,
+      "priority": 5,
+      "hour": 10
+    },
+    {
+      "actual": 114.7,
+      "predicted": 101.2,
+      "priority": 4,
+      "hour": 18
+    },
+    {
+      "actual": 74.7,
+      "predicted": 67.8,
+      "priority": 4,
+      "hour": 1
+    },
+    {
+      "actual": 95.4,
+      "predicted": 100.6,
+      "priority": 4,
+      "hour": 9
+    },
+    {
+      "actual": 98.4,
+      "predicted": 102.4,
+      "priority": 5,
+      "hour": 0
+    },
+    {
+      "actual": 142.5,
+      "predicted": 149.5,
+      "priority": 5,
+      "hour": 9
+    },
+    {
+      "actual": 102.8,
+      "predicted": 101.2,
+      "priority": 5,
+      "hour": 14
+    },
+    {
+      "actual": 10.3,
+      "predicted": 7.8,
+      "priority": 1,
+      "hour": 9
+    },
+    {
+      "actual": 151.3,
+      "predicted": 149.9,
+      "priority": 5,
+      "hour": 11
+    },
+    {
+      "actual": 168.1,
+      "predicted": 148.9,
+      "priority": 5,
+      "hour": 9
+    },
+    {
+      "actual": 22.5,
+      "predicted": 16.0,
+      "priority": 2,
+      "hour": 15
+    },
+    {
+      "actual": 59.3,
+      "predicted": 62.1,
+      "priority": 3,
+      "hour": 10
+    },
+    {
+      "actual": 72.6,
+      "predicted": 67.4,
+      "priority": 4,
+      "hour": 8
+    },
+    {
+      "actual": 19.2,
+      "predicted": 22.4,
+      "priority": 2,
+      "hour": 19
+    },
+    {
+      "actual": 37.4,
+      "predicted": 41.5,
+      "priority": 3,
+      "hour": 7
+    },
+    {
+      "actual": 63.1,
+      "predicted": 61.5,
+      "priority": 3,
+      "hour": 18
+    },
+    {
+      "actual": 26.5,
+      "predicted": 24.1,
+      "priority": 2,
+      "hour": 10
+    },
+    {
+      "actual": 70.9,
+      "predicted": 67.7,
+      "priority": 4,
+      "hour": 6
+    },
+    {
+      "actual": 44.8,
+      "predicted": 60.8,
+      "priority": 3,
+      "hour": 18
+    },
+    {
+      "actual": 41.1,
+      "predicted": 42.2,
+      "priority": 3,
+      "hour": 23
+    },
+    {
+      "actual": 101.8,
+      "predicted": 102.1,
+      "priority": 4,
+      "hour": 18
+    },
+    {
+      "actual": 64.6,
+      "predicted": 60.3,
+      "priority": 3,
+      "hour": 9
+    },
+    {
+      "actual": 110.5,
+      "predicted": 100.9,
+      "priority": 4,
+      "hour": 12
+    },
+    {
+      "actual": 47.4,
+      "predicted": 39.0,
+      "priority": 3,
+      "hour": 14
+    },
+    {
+      "actual": 58.2,
+      "predicted": 66.3,
+      "priority": 4,
+      "hour": 8
+    },
+    {
+      "actual": 24.6,
+      "predicted": 40.7,
+      "priority": 3,
+      "hour": 15
+    },
+    {
+      "actual": 97.4,
+      "predicted": 101.2,
+      "priority": 4,
+      "hour": 18
+    },
+    {
+      "actual": 26.5,
+      "predicted": 25.2,
+      "priority": 2,
+      "hour": 11
+    },
+    {
+      "actual": 72.7,
+      "predicted": 67.1,
+      "priority": 4,
+      "hour": 16
+    },
+    {
+      "actual": 10.3,
+      "predicted": 9.2,
+      "priority": 1,
+      "hour": 18
+    },
+    {
+      "actual": 61.9,
+      "predicted": 64.2,
+      "priority": 4,
+      "hour": 2
+    },
+    {
+      "actual": 49.3,
+      "predicted": 42.0,
+      "priority": 3,
+      "hour": 0
+    },
+    {
+      "actual": 97.7,
+      "predicted": 102.2,
+      "priority": 4,
+      "hour": 9
+    },
+    {
+      "actual": 61.0,
+      "predicted": 57.7,
+      "priority": 3,
+      "hour": 18
+    },
+    {
+      "actual": 21.7,
+      "predicted": 21.3,
+      "priority": 2,
+      "hour": 20
+    },
+    {
+      "actual": 61.3,
+      "predicted": 40.8,
+      "priority": 3,
+      "hour": 0
+    },
+    {
+      "actual": 39.2,
+      "predicted": 24.1,
+      "priority": 2,
+      "hour": 18
+    },
+    {
+      "actual": 46.1,
+      "predicted": 39.4,
+      "priority": 3,
+      "hour": 14
+    },
+    {
+      "actual": 37.7,
+      "predicted": 22.5,
+      "priority": 2,
+      "hour": 17
+    },
+    {
+      "actual": 59.4,
+      "predicted": 61.3,
+      "priority": 3,
+      "hour": 19
+    },
+    {
+      "actual": 40.6,
+      "predicted": 40.6,
+      "priority": 3,
+      "hour": 16
+    },
+    {
+      "actual": 2.0,
+      "predicted": 7.0,
+      "priority": 1,
+      "hour": 8
+    },
+    {
+      "actual": 11.3,
+      "predicted": 18.9,
+      "priority": 2,
+      "hour": 1
+    },
+    {
+      "actual": 56.0,
+      "predicted": 62.3,
+      "priority": 3,
+      "hour": 11
+    },
+    {
+      "actual": 66.7,
+      "predicted": 67.2,
+      "priority": 4,
+      "hour": 13
+    },
+    {
+      "actual": 77.1,
+      "predicted": 64.6,
+      "priority": 4,
+      "hour": 22
+    },
+    {
+      "actual": 146.4,
+      "predicted": 147.4,
+      "priority": 5,
+      "hour": 17
+    },
+    {
+      "actual": 52.3,
+      "predicted": 60.1,
+      "priority": 3,
+      "hour": 17
+    },
+    {
+      "actual": 64.8,
+      "predicted": 67.2,
+      "priority": 4,
+      "hour": 16
+    },
+    {
+      "actual": 95.4,
+      "predicted": 101.0,
+      "priority": 4,
+      "hour": 18
+    },
+    {
+      "actual": 49.9,
+      "predicted": 59.7,
+      "priority": 3,
+      "hour": 11
+    },
+    {
+      "actual": 59.4,
+      "predicted": 60.3,
+      "priority": 3,
+      "hour": 11
+    },
+    {
+      "actual": 68.4,
+      "predicted": 63.1,
+      "priority": 3,
+      "hour": 18
+    },
+    {
+      "actual": 40.1,
+      "predicted": 40.3,
+      "priority": 3,
+      "hour": 13
+    },
+    {
+      "actual": 51.1,
+      "predicted": 60.6,
+      "priority": 3,
+      "hour": 17
+    },
+    {
+      "actual": 66.7,
+      "predicted": 65.3,
+      "priority": 4,
+      "hour": 14
+    }
+  ],
+  "disclaimer": "Operational estimation only. These values represent predictive queue estimates based on operational conditions and priority scoring, NOT guaranteed clinical waiting times."
+}

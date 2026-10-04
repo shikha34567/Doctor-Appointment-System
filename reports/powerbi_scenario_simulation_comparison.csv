@@ -1,0 +1,4 @@
+Scenario,Daily Admissions,Avg LOS (Days),Projected Census,Occupancy Rate (%),Bed Deficit,Nurse Deficit,Risk Level
+Low,36.0,3.9,140.4,38.5%,0,0,Low Risk (Optimal)
+Normal,45.0,4.4,198.0,54.2%,0,0,Low Risk (Optimal)
+High,60.8,5.6,340.5,93.3%,0,0,Moderate Strain (Caution)
